@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Clinica</title>
+  <link rel="stylesheet" href="assets/css/registro.css">
+</head>
+<body>
+
+  <h1> Clínica LAB </h1>
+  <h3>Llene sus datos en el siguiente formulario</h3> 
+    
+  <form id="datos" onsubmit = "return false">
+    <label >¿Cuál es tu nombre?: </label>
+    <input class="input-registro" type="text" id="nombre"/><br>
+    <span class = "formatoIngreso"></span>
+    <br><br>
+    
+    <label >¿Cuál es tu apellido?: </label>
+    <input class="input-registro" type="text" id="apellido"/><br>
+    <span class = "formatoIngreso"></span>
+    <br /><br />    
+    
+    <label >¿Cuál es tu edad?: </label>
+    <input class="input-registro" type="text" id="edad"/><br>
+    <span class = "formatoIngreso"></span>
+    <br /><br />
+    
+    <label >¿Cuál es tu genero?: </label>
+    <input class="input-registro" type="text" id="genero"/><br>
+    <span class = "formatoIngreso"></span>
+    <br /><br />
+    
+    <label>¿Cuál es tu ciudad?: </label>
+    <input class="input-registro" type="text" id="ciudad"/><br>
+    <span class = "formatoIngreso"></span>
+    <br /><br />
+    
+    <label>¿Cuál es tu país?: </label>
+    <input class="input-registro"type="text" id="pais"/><br>
+    <span class = "formatoIngreso"></span>
+    <br /><br />
+    
+    <button id="todos">Enviar Datos</button><br>
+
+    <span id = "camposObligatorios"></span>
+
+    <button id="borrar-contenido">Limpiar</button>
+
+
+  </form>
+
+  <div id="imprimir" style="margin-top: 25px"></div>
+  <script type = "text/javascript" src="assets/js/app.js"></script>
+  <script type = "text/javascript" src="assets/js/editar.js"></script>
+  
+</body>
+</html>
+
+

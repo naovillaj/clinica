@@ -1,0 +1,43 @@
+#datos{
+
+	display: inline-block;
+	text-align: left;
+}
+
+.resultado{
+	display: inline-block;
+  	background-color: #A9F5E1;
+  	margin: 30px 0 0 30px;
+  	padding: 20px 30px;
+  	border: 1px solid black;
+}
+
+body{
+
+	text-align: center;
+	padding-top: 80px;
+}
+
+button{
+	margin: 0 auto;
+	display: block;
+}
+
+label{
+	display: inline-block;
+	width: 150px;
+}
+
+.formatoIngreso{
+	font-family: cursive;
+	color: red;
+	font-size: xx-small;
+}
+
+.formatoPaciente{
+	display: inline-block;
+  	background-color: #A9F5E1;
+  	margin: 30px 0 0 30px;
+  	padding: 20px 30px;
+  	border: 1px solid black;
+}
